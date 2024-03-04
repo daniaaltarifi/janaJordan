@@ -1,0 +1,45 @@
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
+
+
+body{
+  font-family: 'Codec Pro', sans-serif;
+
+}
+.row {
+  --bs-gutter-x: 0;}
+
+.logo{
+    height: 10vh;
+    width: 13vh;
+}
+.custom-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  .navbar{
+    height: 9vh;
+  }
+ .navbar-nav {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  margin: 2vh   ;
+font-size: 18px;
+}
+@media screen and (max-width:768px) {
+  .navbar{
+    height: 15vh;
+  }
+  .navbar-nav{
+    background-color: #fff;
+    width: 100% ;
+  }
+  .data_mob{
+background-color: #fff;
+  }
+  
+}

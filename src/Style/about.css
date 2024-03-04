@@ -1,0 +1,65 @@
+.title_about{
+font-size: 40px;
+font-weight: 700;
+/* margin-top: 5vh; */
+font-family: "Kumbh Sans", "sans-serif";
+line-height: 48px;
+color: #0e52fd;
+text-align: left;
+}
+.big_cont{
+    margin-left: 4vh;
+
+}
+.whoare_container{
+    display: flex;
+    align-items: center; /* Vertically center the items */
+}
+.img_about{
+    width: 90%;
+    height: 90vh;
+}
+.who_are{
+    margin-left: 2vh;
+    color: #3c72fc;
+}
+  .cont_title{
+    /* width: 80%; */
+    margin-top: 1vh;
+    
+  }
+  .details_about{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+  .check_icon {
+    background: linear-gradient(90deg, #3c72fc -10.59%, #00060c 300.59%);
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 50%; /* Ensures the element is circular */
+  }
+  
+  .check_icon i {
+    /* padding-top: 35px; */
+    color: white; /* Set the color of the icon */
+  }
+  .para_list{
+    padding-left: 2vh;
+
+  }
+  .list_about{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 8vh;
+    list-style-type: none;
+}
+.internal_list{
+      padding-right: 5vh;
+
+  }
+  @media screen and (max-width:768px) {
+    .hide_img_about{
+        display: none;
+    }
+  }
